@@ -46,6 +46,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+
 .circle1,
 .circle2 {
   background: white;
@@ -180,4 +181,84 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* codingChallenge */
+@media only screen and (max-width:1300px) {
+  .games {
+    flex-direction: column;
+    margin-left: 25px
+  }
+
+  .card {
+    display: block;
+  }
+
+  .glass {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .games {
+    flex-direction: column;
+    margin: 100px 50px;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .glass {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  .games {
+    flex-direction: column;
+    margin: 100px 0;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .glass {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .games {
+    flex-direction: column;
+    margin: 100px 0;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .glass {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .games {
+    flex-direction: column;
+    margin: 100px 0;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .glass {
+    flex-direction: column;
+  }
+
+  img {
+    margin-left: 24px;
+  }
 }
