@@ -181,3 +181,74 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 768px) {
+  .glass {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .glass h1 {
+    text-align: center;
+  }
+  .status input {
+    width: 85%;
+    margin: 1rem 1rem;
+  }
+  .pro {
+    margin: 2rem;
+  }
+  .card {
+    display: flex;
+    width: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .dashboard {
+    margin: 0.8rem;
+  }
+  .dashboard img {
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 1300px) {
+  .glass {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .glass h1 {
+    text-align: center;
+  }
+  .status input {
+    width: 85%;
+    margin: 1rem 1rem;
+  }
+  .pro {
+    margin: 2rem;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .card-info {
+    margin-top: 1rem;
+  }
+  .card-info h2 {
+    text-align: center;
+  }
+  .card-info p {
+    text-align: center;
+  }
+  .card .dashboard {
+    margin: 0.8rem;
+  }
+  .dashboard img {
+    padding-top: 1rem;
+  }
+}
